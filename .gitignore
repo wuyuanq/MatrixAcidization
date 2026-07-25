@@ -1,0 +1,12 @@
+*.txt
+.DS_Store
+Result/
+results/
+output/
+outputs/
+*.o
+*.obj
+*.mod
+*.exe
+*.out
+*.log
