@@ -254,18 +254,19 @@ The corresponding source switches are named `isDarcy`, `isBrinkman`, and `isForc
 
 A representative acid-transport equation is
 
-$$
-\frac{\partial(\phi S_w C_f)}{\partial t}
+```math
+\frac{\partial (\phi S_w C_f)}{\partial t}
 +
-\nabla\cdot(\mathbf{u}_w C_f)
+\nabla \cdot
+(\mathbf{u}_w C_f)
 =
-\nabla\cdot
+\nabla \cdot
 \left(
-\phi S_w \mathbf{D}_e\nabla C_f
+\phi S_w \mathbf{D}_e \nabla C_f
 \right)
 -
-R(C_f,T,a_v),
-$$
+R(C_f,T,a_v)
+```
 
 where:
 
@@ -292,17 +293,19 @@ At the reactive surface, the reaction and mass-transfer rates are balanced accor
 
 For temperature-dependent kinetics, an Arrhenius-type relationship may be used:
 
-$$
+```math
 k_s(T)
 =
 k_{s,\mathrm{ref}}
-\exp\left[
+\exp\!\left(
 -\frac{E_a}{R_g}
 \left(
-\frac{1}{T}-\frac{1}{T_{\mathrm{ref}}}
+\frac{1}{T}
+-
+\frac{1}{T_{\mathrm{ref}}}
 \right)
-\right].
-$$
+\right)
+```
 
 ### 5. Porosity evolution
 
