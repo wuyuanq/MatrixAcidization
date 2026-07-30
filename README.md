@@ -127,7 +127,7 @@ The framework couples flow, transport, reaction, thermal effects, and rock-prope
 | **V1.0** | Single phase | No | 2D and 3D | Initial parallel matrix-acidization and wormhole-propagation simulator based on mass and momentum conservation. |
 | **V2.0** | Single phase | Yes | 2D and 3D | Adds energy conservation to the single-phase framework. |
 | **V3.0** | Single phase | Yes | 2D and 3D | Introduces a **decoupled scheme** for solving the pressure–velocity linear system and substantially reorganizes the code structure. |
-| **V4.0** | Two phase: water and oil | No | 2D | Extends the simulator to two-phase matrix acidization. |
+| **V4.0** | Two phase: water and oil | No | 2D | Extends the simulator to two-phase matrix acidization based on V2.0. |
 | **V5.0** | Two phase: water and oil | Yes | 2D | Adds energy conservation to the two-phase formulation for non-isothermal acidizing simulations. |
 
 ### Generation I: Single-phase models
@@ -151,7 +151,7 @@ V3.0 introduces two major changes:
 
 #### V4.0
 
-V4.0 extends the physical model from single-phase flow to two-phase water–oil flow. It includes saturation-dependent flow behavior and phase-specific velocities.
+V4.0 extends the physical model from single-phase flow to two-phase water–oil flow based on V2.0. It includes saturation-dependent flow behavior and phase-specific velocities.
 
 #### V5.0
 
