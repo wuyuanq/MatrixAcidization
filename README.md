@@ -217,21 +217,27 @@ For a single-phase incompressible formulation, this reduces to a continuity cons
 
 The momentum model combines pressure, viscous diffusion, porous drag, and inertial drag. A representative form is
 
-$$
+```math
 \frac{\partial}{\partial t}
-\left(\frac{\rho\mathbf{u}}{\phi}\right)
-+
-\nabla\cdot
 \left(
-\frac{\rho\mathbf{u}\otimes\mathbf{u}}{\phi^2}
+\frac{\rho \mathbf{u}}{\phi}
+\right)
++
+\nabla \cdot
+\left(
+\frac{\rho \mathbf{u} \otimes \mathbf{u}}{\phi^{2}}
 \right)
 =
 -\nabla p
-+\nabla\cdot\boldsymbol{\tau}
--\frac{\mu}{K}\mathbf{u}
--\beta\rho|\mathbf{u}|\mathbf{u}
-+\rho\mathbf{g}.
-$$
++
+\nabla \cdot \mathbf{\tau}
+-
+\frac{\mu}{K}\mathbf{u}
+-
+\beta \rho \lVert \mathbf{u} \rVert \mathbf{u}
++
+\rho \mathbf{g}
+```
 
 The model terms may be selected conceptually as follows:
 
