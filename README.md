@@ -311,11 +311,10 @@ k_{s,\mathrm{ref}}
 
 Mineral dissolution changes the void volume. A representative porosity update is
 
-$$
-\frac{\partial\phi}{\partial t}
+```math
+\frac{\partial \phi}{\partial t}
 =
-\frac{\alpha\,a_v\,R_s}{\rho_s},
-$$
+\fra
 
 where $\alpha$ is a stoichiometric conversion factor and $\rho_s$ is the mineral density.
 
