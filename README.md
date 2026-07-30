@@ -197,11 +197,14 @@ The equations below summarize the physical structure of the framework. Exact coe
 
 A representative mixture or phase mass balance is
 
-$$
-\frac{\partial (\phi \rho_\alpha S_\alpha)}{\partial t}
-+\nabla\cdot(\rho_\alpha\mathbf{u}_\alpha)
-=q_\alpha,
-$$
+```math
+\frac{\partial (\phi \rho_{\alpha} S_{\alpha})}{\partial t}
++
+\nabla \cdot
+(\rho_{\alpha}\mathbf{u}_{\alpha})
+=
+q_{\alpha}
+```
 
 where:
 
@@ -279,15 +282,15 @@ where:
 
 The surface reaction is commonly represented by a kinetic law of the form
 
-$$
-R_s=k_s(T)\,C_s,
-$$
+```math
+R_s = k_s(T)\,C_s
+```
 
 with mass transfer between the bulk fluid and mineral surface represented by
 
-$$
-R_m=k_c(C_f-C_s).
-$$
+```math
+R_m = k_c \left( C_f - C_s \right)
+```
 
 At the reactive surface, the reaction and mass-transfer rates are balanced according to the selected constitutive model.
 
@@ -314,7 +317,8 @@ Mineral dissolution changes the void volume. A representative porosity update is
 ```math
 \frac{\partial \phi}{\partial t}
 =
-\fra
+\frac{\alpha a_v R_s}{\rho_s}
+```
 
 where $\alpha$ is a stoichiometric conversion factor and $\rho_s$ is the mineral density.
 
@@ -322,14 +326,16 @@ where $\alpha$ is a stoichiometric conversion factor and $\rho_s$ is the mineral
 
 Permeability evolves with porosity using a constitutive relation. A commonly used form is
 
-$$
+```math
 \frac{K}{K_0}
 =
-\left(\frac{\phi}{\phi_0}\right)^m
+\left(
+\frac{\phi}{\phi_0}
+\right)^m
 \left(
 \frac{1-\phi_0}{1-\phi}
-\right)^n,
-$$
+\right)^n
+```
 
 where $K_0$ and $\phi_0$ are the initial permeability and porosity.
 
@@ -337,7 +343,7 @@ where $K_0$ and $\phi_0$ are the initial permeability and porosity.
 
 The reactive surface area may be related to porosity through a power law:
 
-$$
+```math
 \frac{a_v}{a_{v,0}}
 =
 \left(
@@ -345,61 +351,64 @@ $$
 \right)^a
 \left(
 \frac{1-\phi}{1-\phi_0}
-\right)^b.
-$$
+\right)^b
+```
 
 ### 8. Energy conservation
 
 V2.0, V3.0, and V5.0 include energy conservation. A representative local-thermal-equilibrium equation is
 
-$$
+```math
 \frac{\partial}{\partial t}
 \left[
 \left(
-\phi\rho_f c_{p,f}
+\phi \rho_f c_{p,f}
 +
 (1-\phi)\rho_s c_{p,s}
-\right)T
+\right)
+T
 \right]
 +
-\nabla\cdot
+\nabla \cdot
 \left(
 \rho_f c_{p,f}\mathbf{u}T
 \right)
 =
-\nabla\cdot
+\nabla \cdot
 \left(
-\lambda_{\mathrm{eff}}\nabla T
+\lambda_{\mathrm{eff}}
+\nabla T
 \right)
 +
-Q_{\mathrm{rxn}}.
-$$
+Q_{\mathrm{rxn}}
+```
 
 ### 9. Two-phase saturation transport
 
 V4.0 and V5.0 model water and oil phases with
 
-$$
-S_w+S_o=1.
-$$
+```math
+S_w + S_o = 1
+```
 
 A representative water-phase balance is
 
-$$
-\frac{\partial(\phi\rho_w S_w)}{\partial t}
+```math
+\frac{\partial (\phi \rho_w S_w)}{\partial t}
 +
-\nabla\cdot(\rho_w\mathbf{u}_w)
+\nabla \cdot
+(\rho_w \mathbf{u}_w)
 =
-q_w.
-$$
+q_w
+```
 
 Phase mobility is typically related to relative permeability:
 
-$$
-\lambda_\alpha
+```math
+\lambda_{\alpha}
 =
-\frac{k_{r\alpha}(S_\alpha)}{\mu_\alpha}.
-$$
+\frac{k_{r\alpha}(S_{\alpha})}{\mu_{\alpha}}
+```
 
 The current two-phase source exposes water saturation and phase-specific velocities, including quantities such as `Sw`, `vxw`, `vyw`, `vxn`, and `vyn`.
 
@@ -483,7 +492,7 @@ flowchart TB
 
 The original pressure–velocity discretization forms a saddle-point-type linear system:
 
-$$
+```math
 \begin{bmatrix}
 A & G \\
 D & 0
@@ -496,8 +505,8 @@ p
 \begin{bmatrix}
 \mathbf{f} \\
 \mathbf{g}
-\end{bmatrix}.
-$$
+\end{bmatrix}
+```
 
 V3.0 introduces a decoupled strategy that derives separate pressure and velocity systems. Conceptually:
 
