@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
-  <rect width="1200" height="720" fill="#f3f4f6"/>
-  <rect x="40" y="40" width="1120" height="640" rx="24" fill="#ffffff" stroke="#9ca3af" stroke-width="3"/>
-  <path d="M130 520 C260 350, 330 560, 460 330 S680 500, 780 260 S970 390, 1070 170"
-        fill="none" stroke="#6b7280" stroke-width="20" stroke-linecap="round" opacity="0.55"/>
-  <text x="600" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="54" fill="#111827">Porosity Evolution</text>
-  <text x="600" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#4b5563">Initial and evolved porosity</text>
-  <text x="600" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#6b7280">Replace this placeholder with an authentic simulation result.</text>
-</svg>
