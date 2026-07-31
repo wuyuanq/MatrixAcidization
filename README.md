@@ -1054,11 +1054,7 @@ For questions about model assumptions, build dependencies, collaboration, or use
 
 ## License
 
-No explicit license file is included in the current repository snapshot.
-
-Unless a license is added, copyright law generally reserves reuse, modification, and redistribution rights to the copyright holder. Users should contact the author before redistributing the code or using it in commercial work.
-
-A future release should add a standard license such as BSD-3-Clause, MIT, GPL-3.0, or a project-specific academic license after the author determines the intended reuse terms.
+MIT license.
 
 ---
 
