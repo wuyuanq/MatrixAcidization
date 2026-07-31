@@ -934,7 +934,7 @@ The following publications describe major physical models, numerical methods, an
    *AIP Advances*, 11, 125305, 2021.  
    DOI: [10.1063/5.0071381](https://doi.org/10.1063/5.0071381)
 
-6. **Y. Wu and J. Kou**,  
+6. **Y. Wu**,  
    “Two-Phase and Thermal Effects on Dissolution Pattern Evolution during Matrix Acidizing: A Numerical Study,”  
    *Results in Engineering*, 29, 109816, 2026.  
    DOI: [10.1016/j.rineng.2026.109816](https://doi.org/10.1016/j.rineng.2026.109816)
