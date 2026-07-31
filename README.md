@@ -831,7 +831,7 @@ Depending on the version, output fields may include:
 
 ## Simulation Gallery
 
-The following paths are reserved for project-generated figures. Replace the placeholder SVG files with authentic simulation results while retaining the same filenames.
+The following paths are reserved for project-generated figures.
 
 <table>
 <tr>
