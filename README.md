@@ -1012,7 +1012,6 @@ Known limitations include:
 - authentic simulation figures are not bundled in the current snapshot;
 - version-specific compiler and library requirements are not fully documented;
 - historical cluster instructions may no longer apply to current systems;
-- a formal open-source license file is not currently included.
 
 These limitations should be addressed before describing the repository as immediately reproducible on a new machine.
 
