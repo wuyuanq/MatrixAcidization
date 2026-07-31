@@ -978,7 +978,7 @@ When using this repository, cite both the software and the publication most clos
   volume  = {11},
   pages   = {125305},
   year    = {2021},
-  doi     = {10.1063/5.0071381}
+  doi     = {10.1063/5.0067340}
 }
 ```
 
