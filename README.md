@@ -932,7 +932,7 @@ The following publications describe major physical models, numerical methods, an
 5. **Y. Wu, J. Kou, Y.-S. Wu, S. Sun, and Y. Xia**,  
    “A decoupled scheme to solve the mass and momentum conservation equations of the improved Darcy–Brinkman–Forchheimer framework in matrix acidization,”  
    *AIP Advances*, 11, 125305, 2021.  
-   DOI: [10.1063/5.0071381](https://doi.org/10.1063/5.0071381)
+   DOI: [10.1063/5.0067340](https://doi.org/10.1063/5.0067340)
 
 6. **Y. Wu**,  
    “Two-Phase and Thermal Effects on Dissolution Pattern Evolution during Matrix Acidizing: A Numerical Study,”  
